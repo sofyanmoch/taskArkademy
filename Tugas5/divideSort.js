@@ -8,14 +8,10 @@ const divideSort = number => {
         console.log('Inputan harus Number')
     } else {
         const x = number.toString().split('0')
-        let hasil = ''
-        for(let i=0; i<x.length; i++){
-            let output = x[i].split('').sort().join('')
-            hasil += output
-        }
-        console.log(hasil)
+        let hasil = x.map( i => i.split('').sort().join(''))
+        let result = parseInt(hasil.join(''))
+        console.log(result)
     }
 }
 
-divideSort(595656015946056)
 divideSort('595656015946056')
