@@ -1,0 +1,9 @@
+Algoritma divideAndSort.js :
+1. Mulai
+2. Masukan inputan (harus angka), jika input bukan angka maka output "input harus angka"
+3. Jika input = angka, ubah angka tersebut menjadi string dengan 0 merupakan pemisah antar bilangan sehingga angka yg dimasukan sekarang bertipe array
+4. dan simpan hasil proses sebelumnya kedalam variabel x
+5. lakukan mapping terhadap x, representasikan dengan var  i, lalu split dan sortir urutannya
+6. convert var hasil tadi menjadi integer/number dan joinkan(gabungkan) indeks array tadi 
+7. tampilkan hasilnya
+8. selesai 
